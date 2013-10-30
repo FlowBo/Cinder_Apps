@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		05924996226443159025DD6D /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC360475FA674269B179D4A3 /* UdpSocket.cpp */; };
+		BBAFDDDF23B543AE9A0777EA /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76D60F0A745C4FB4BFE4550A /* NetworkingUtils.cpp */; };
+		EBC9CF6305AB4BDBA6059A67 /* OscTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5CF5C1C5E84F00A4D936A3 /* OscTypes.h */; };
+		4DAB1B3DF7C648AB87924961 /* OscReceivedElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 77FFA301380546BF8B80BB7E /* OscReceivedElements.h */; };
+		0116A507DF0B429BAFFE31C1 /* OscPrintReceivedElements.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAA6AAEA56F46BDB0B176CC /* OscPrintReceivedElements.h */; };
+		7A4EA4B9F1BA48AE990B6F06 /* OscPacketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 150F5FA23BB0400FA313AF14 /* OscPacketListener.h */; };
+		D55D267DAAB144FAADF94BDD /* OscOutboundPacketStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 90097C0928334D71B71CE312 /* OscOutboundPacketStream.h */; };
+		F716FA55BB3F4747AC031F81 /* OscHostEndianness.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFEC100F19D4AFC9BB0A893 /* OscHostEndianness.h */; };
+		1E0F62A992DB498392B2E998 /* OscException.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C3E2A3326D49C3A75035C2 /* OscException.h */; };
+		F528BD2450F7460B8EACC06A /* MessageMappingOscPacketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A45038949A47118A0AF206 /* MessageMappingOscPacketListener.h */; };
+		AC6DD5924E854AAB93B332FD /* UdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC0A90A69F947E48E118387 /* UdpSocket.h */; };
+		C59FA277E60548818E9230EA /* TimerListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 81536B0C6C5D4BECBB3A817F /* TimerListener.h */; };
+		52F3913A54AD42E3B1364880 /* PacketListener.h in Headers */ = {isa = PBXBuildFile; fileRef = ADED4E35AB6642D89557E72C /* PacketListener.h */; };
+		A8D9191768A149A4A29E30F3 /* NetworkingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F7C609B54840E98DBA9752 /* NetworkingUtils.h */; };
+		09EAAC8F3E834BB5995BA530 /* IpEndpointName.h in Headers */ = {isa = PBXBuildFile; fileRef = CB8BF982B9204A4492D46117 /* IpEndpointName.h */; };
+		FADE768F31F546019895F096 /* OscSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CFA943407244821A2C5E5C6 /* OscSender.h */; };
+		1FFA2AD0CFEF4572A0906545 /* OscMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 873EE655EB0C4839996E9842 /* OscMessage.h */; };
+		0F53625180434AC99AC745D1 /* OscListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E36D4241874314BEC8C455 /* OscListener.h */; };
+		CBB8CACD41C7434386E96590 /* OscBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5F57A2C58C458485F506FB /* OscBundle.h */; };
+		F136BA9813294EE6923D1473 /* OscArg.h in Headers */ = {isa = PBXBuildFile; fileRef = AB981318E4D04061B178C8F1 /* OscArg.h */; };
+		960B8F3A9D87451FA87BF62B /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64C08F317F074185BFFDE4B5 /* OscTypes.cpp */; };
+		8655D0A7F512481EB2762089 /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D47AA70161544A18A247B33 /* OscReceivedElements.cpp */; };
+		B4F5EBA202024AEB8DF729DD /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9019C370236F471BAD494610 /* OscPrintReceivedElements.cpp */; };
+		AA2422C9F19F4AD9B2828995 /* OscOutboundPacketStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A127AE7D77334F029135865B /* OscOutboundPacketStream.cpp */; };
+		897DBCEB91C0459994B0C969 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D780683440FAB95F0F82 /* IpEndpointName.cpp */; };
+		E5F3857982624ED6AA79C1F5 /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A267C7A6A8084F518DE6858D /* OscSender.cpp */; };
+		DB1E3EDF03504A24A0298049 /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7911872761DC4B1BAC17DBCE /* OscMessage.cpp */; };
+		92A54E817EDC46D193EE8A19 /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89802D2DE4BD47339C228B31 /* OscListener.cpp */; };
+		BD12477436A8473BADCE652B /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52537ADE36604F238FBCE55D /* OscBundle.cpp */; };
+		66EFBC6CE4E74F76A5D9B4F6 /* iPadTest_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = C0A939C069B44EBA937A7891 /* iPadTest_Prefix.pch */; };
+		C2A52CC4207F49E68C74B5BB /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 608CEC85F3C54620AF6B9E20 /* CinderApp.icns */; };
+		F62A44EC0DD84BDA9462F006 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 587EAF678D834C57B64F215B /* Resources.h */; };
+		EF193B4E7E8D44FE8B2534BC /* iPadTestApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9495962D4A144D958702798D /* iPadTestApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* iPadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9495962D4A144D958702798D /* iPadTestApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/iPadTestApp.cpp; sourceTree = "<group>"; name = iPadTestApp.cpp; };
+		587EAF678D834C57B64F215B /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
+		608CEC85F3C54620AF6B9E20 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
+		82FB74FAFBEE4AC2BD75F221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
+		C0A939C069B44EBA937A7891 /* iPadTest_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = iPadTest_Prefix.pch; sourceTree = "<group>"; name = iPadTest_Prefix.pch; };
+		52537ADE36604F238FBCE55D /* OscBundle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/OSC/src/OscBundle.cpp; sourceTree = "<group>"; name = OscBundle.cpp; };
+		89802D2DE4BD47339C228B31 /* OscListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/OSC/src/OscListener.cpp; sourceTree = "<group>"; name = OscListener.cpp; };
+		7911872761DC4B1BAC17DBCE /* OscMessage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/OSC/src/OscMessage.cpp; sourceTree = "<group>"; name = OscMessage.cpp; };
+		A267C7A6A8084F518DE6858D /* OscSender.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/OSC/src/OscSender.cpp; sourceTree = "<group>"; name = OscSender.cpp; };
+		16F4D780683440FAB95F0F82 /* IpEndpointName.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/OSC/src/ip/IpEndpointName.cpp; sourceTree = "<group>"; name = IpEndpointName.cpp; };
+		A127AE7D77334F029135865B /* OscOutboundPacketStream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/OSC/src/osc/OscOutboundPacketStream.cpp; sourceTree = "<group>"; name = OscOutboundPacketStream.cpp; };
+		9019C370236F471BAD494610 /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/OSC/src/osc/OscPrintReceivedElements.cpp; sourceTree = "<group>"; name = OscPrintReceivedElements.cpp; };
+		7D47AA70161544A18A247B33 /* OscReceivedElements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/OSC/src/osc/OscReceivedElements.cpp; sourceTree = "<group>"; name = OscReceivedElements.cpp; };
+		64C08F317F074185BFFDE4B5 /* OscTypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/OSC/src/osc/OscTypes.cpp; sourceTree = "<group>"; name = OscTypes.cpp; };
+		AB981318E4D04061B178C8F1 /* OscArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/OscArg.h; sourceTree = "<group>"; name = OscArg.h; };
+		2A5F57A2C58C458485F506FB /* OscBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/OscBundle.h; sourceTree = "<group>"; name = OscBundle.h; };
+		39E36D4241874314BEC8C455 /* OscListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/OscListener.h; sourceTree = "<group>"; name = OscListener.h; };
+		873EE655EB0C4839996E9842 /* OscMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/OscMessage.h; sourceTree = "<group>"; name = OscMessage.h; };
+		9CFA943407244821A2C5E5C6 /* OscSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/OscSender.h; sourceTree = "<group>"; name = OscSender.h; };
+		CB8BF982B9204A4492D46117 /* IpEndpointName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/ip/IpEndpointName.h; sourceTree = "<group>"; name = IpEndpointName.h; };
+		79F7C609B54840E98DBA9752 /* NetworkingUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/ip/NetworkingUtils.h; sourceTree = "<group>"; name = NetworkingUtils.h; };
+		ADED4E35AB6642D89557E72C /* PacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/ip/PacketListener.h; sourceTree = "<group>"; name = PacketListener.h; };
+		81536B0C6C5D4BECBB3A817F /* TimerListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/ip/TimerListener.h; sourceTree = "<group>"; name = TimerListener.h; };
+		7FC0A90A69F947E48E118387 /* UdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/ip/UdpSocket.h; sourceTree = "<group>"; name = UdpSocket.h; };
+		55A45038949A47118A0AF206 /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/osc/MessageMappingOscPacketListener.h; sourceTree = "<group>"; name = MessageMappingOscPacketListener.h; };
+		A8C3E2A3326D49C3A75035C2 /* OscException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/osc/OscException.h; sourceTree = "<group>"; name = OscException.h; };
+		BBFEC100F19D4AFC9BB0A893 /* OscHostEndianness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/osc/OscHostEndianness.h; sourceTree = "<group>"; name = OscHostEndianness.h; };
+		90097C0928334D71B71CE312 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/osc/OscOutboundPacketStream.h; sourceTree = "<group>"; name = OscOutboundPacketStream.h; };
+		150F5FA23BB0400FA313AF14 /* OscPacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/osc/OscPacketListener.h; sourceTree = "<group>"; name = OscPacketListener.h; };
+		ADAA6AAEA56F46BDB0B176CC /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/osc/OscPrintReceivedElements.h; sourceTree = "<group>"; name = OscPrintReceivedElements.h; };
+		77FFA301380546BF8B80BB7E /* OscReceivedElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/osc/OscReceivedElements.h; sourceTree = "<group>"; name = OscReceivedElements.h; };
+		FF5CF5C1C5E84F00A4D936A3 /* OscTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../blocks/OSC/src/osc/OscTypes.h; sourceTree = "<group>"; name = OscTypes.h; };
+		76D60F0A745C4FB4BFE4550A /* NetworkingUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/OSC/src/ip/posix/NetworkingUtils.cpp; sourceTree = "<group>"; name = NetworkingUtils.cpp; };
+		CC360475FA674269B179D4A3 /* UdpSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../blocks/OSC/src/ip/posix/UdpSocket.cpp; sourceTree = "<group>"; name = UdpSocket.cpp; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9495962D4A144D958702798D /* iPadTestApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* iPadTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* iPadTest */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = iPadTest;
+			sourceTree = "<group>";
+		};
+		701CFEC8884B434DA29F19BB /* posix */ = {
+			isa = PBXGroup;
+			children = (
+				76D60F0A745C4FB4BFE4550A /* NetworkingUtils.cpp */,
+				CC360475FA674269B179D4A3 /* UdpSocket.cpp */,
+			);
+			name = posix;
+			sourceTree = "<group>";
+		};
+		247A3A66AD0D40798DCB0466 /* ip */ = {
+			isa = PBXGroup;
+			children = (
+				16F4D780683440FAB95F0F82 /* IpEndpointName.cpp */,
+				CB8BF982B9204A4492D46117 /* IpEndpointName.h */,
+				79F7C609B54840E98DBA9752 /* NetworkingUtils.h */,
+				ADED4E35AB6642D89557E72C /* PacketListener.h */,
+				81536B0C6C5D4BECBB3A817F /* TimerListener.h */,
+				7FC0A90A69F947E48E118387 /* UdpSocket.h */,
+				701CFEC8884B434DA29F19BB /* posix */,
+			);
+			name = ip;
+			sourceTree = "<group>";
+		};
+		047C360B5A79412588967CC0 /* osc */ = {
+			isa = PBXGroup;
+			children = (
+				A127AE7D77334F029135865B /* OscOutboundPacketStream.cpp */,
+				9019C370236F471BAD494610 /* OscPrintReceivedElements.cpp */,
+				7D47AA70161544A18A247B33 /* OscReceivedElements.cpp */,
+				64C08F317F074185BFFDE4B5 /* OscTypes.cpp */,
+				55A45038949A47118A0AF206 /* MessageMappingOscPacketListener.h */,
+				A8C3E2A3326D49C3A75035C2 /* OscException.h */,
+				BBFEC100F19D4AFC9BB0A893 /* OscHostEndianness.h */,
+				90097C0928334D71B71CE312 /* OscOutboundPacketStream.h */,
+				150F5FA23BB0400FA313AF14 /* OscPacketListener.h */,
+				ADAA6AAEA56F46BDB0B176CC /* OscPrintReceivedElements.h */,
+				77FFA301380546BF8B80BB7E /* OscReceivedElements.h */,
+				FF5CF5C1C5E84F00A4D936A3 /* OscTypes.h */,
+			);
+			name = osc;
+			sourceTree = "<group>";
+		};
+		6962EF3DFFF04BD7937F6C44 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				52537ADE36604F238FBCE55D /* OscBundle.cpp */,
+				89802D2DE4BD47339C228B31 /* OscListener.cpp */,
+				7911872761DC4B1BAC17DBCE /* OscMessage.cpp */,
+				A267C7A6A8084F518DE6858D /* OscSender.cpp */,
+				247A3A66AD0D40798DCB0466 /* ip */,
+				047C360B5A79412588967CC0 /* osc */,
+				AB981318E4D04061B178C8F1 /* OscArg.h */,
+				2A5F57A2C58C458485F506FB /* OscBundle.h */,
+				39E36D4241874314BEC8C455 /* OscListener.h */,
+				873EE655EB0C4839996E9842 /* OscMessage.h */,
+				9CFA943407244821A2C5E5C6 /* OscSender.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		77BAAF8E62F34EA7B6B7BC8D /* OSC */ = {
+			isa = PBXGroup;
+			children = (
+				6962EF3DFFF04BD7937F6C44 /* src */,
+			);
+			name = OSC;
+			sourceTree = "<group>";
+		};
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				77BAAF8E62F34EA7B6B7BC8D /* OSC */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				587EAF678D834C57B64F215B /* Resources.h */,
+				C0A939C069B44EBA937A7891 /* iPadTest_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				608CEC85F3C54620AF6B9E20 /* CinderApp.icns */,
+				82FB74FAFBEE4AC2BD75F221 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* iPadTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "iPadTest" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPadTest;
+			productInstallPath = "$(HOME)/Applications";
+			productName = iPadTest;
+			productReference = 8D1107320486CEB800E47090 /* iPadTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPadTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* iPadTest */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* iPadTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A52CC4207F49E68C74B5BB /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF193B4E7E8D44FE8B2534BC /* iPadTestApp.cpp in Sources */,
+				BD12477436A8473BADCE652B /* OscBundle.cpp in Sources */,
+				92A54E817EDC46D193EE8A19 /* OscListener.cpp in Sources */,
+				DB1E3EDF03504A24A0298049 /* OscMessage.cpp in Sources */,
+				E5F3857982624ED6AA79C1F5 /* OscSender.cpp in Sources */,
+				897DBCEB91C0459994B0C969 /* IpEndpointName.cpp in Sources */,
+				AA2422C9F19F4AD9B2828995 /* OscOutboundPacketStream.cpp in Sources */,
+				B4F5EBA202024AEB8DF729DD /* OscPrintReceivedElements.cpp in Sources */,
+				8655D0A7F512481EB2762089 /* OscReceivedElements.cpp in Sources */,
+				960B8F3A9D87451FA87BF62B /* OscTypes.cpp in Sources */,
+				BBAFDDDF23B543AE9A0777EA /* NetworkingUtils.cpp in Sources */,
+				05924996226443159025DD6D /* UdpSocket.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPadTest_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
+				PRODUCT_NAME = iPadTest;
+				WRAPPER_EXTENSION = app;
+				SYMROOT = ./build;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPadTest_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
+				PRODUCT_NAME = iPadTest;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+				SYMROOT = ./build;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../../CINDER/Cinder_master";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\" ../include",
+					../blocks/OSC/src,
+				);
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../../CINDER/Cinder_master";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\" ../include",
+					../blocks/OSC/src,
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "iPadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iPadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

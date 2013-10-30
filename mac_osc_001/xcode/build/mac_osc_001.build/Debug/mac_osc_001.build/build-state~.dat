@@ -1,0 +1,505 @@
+Tmac_osc_001
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/Info.plist Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/mac_osc_001.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch.pth mac_osc_001_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/mac_osc_001App.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../src/mac_osc_001App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscListener.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscMessage.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/IpEndpointName.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscSender.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscPrintReceivedElements.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscOutboundPacketStream.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscReceivedElements.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscBundle.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscTypes.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/NetworkingUtils.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/UdpSocket.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BAF7BA00000000000000AA
+t1371207610
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000517EC81500000000000024F0
+t1367263253
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000517EC8160000000000024DD8
+t1367263254
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000517EC81600000000000060B4
+t1367263254
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000517EC81600000000000001E5
+t1367263254
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000517EC816000000000000E9A8
+t1367263254
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000517E9B520000000000006730
+t1367251794
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000517E9B560000000000081CB0
+t1367251798
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051AF5B8C000000000002DAD0
+t1370446732
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c0000000051AF5B9200000000004A2E10
+t1370446738
+s4861456
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/Cinder.h
+c00000000519797D00000000000000D79
+t1368889296
+s3449
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/CinderMath.h
+c00000000519797D00000000000001F9C
+t1368889296
+s8092
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/Matrix.h
+c00000000519797D00000000000000EDD
+t1368889296
+s3805
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/Quaternion.h
+c00000000519797D00000000000005499
+t1368889296
+s21657
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/Vector.h
+c00000000519797D0000000000000AD7C
+t1368889296
+s44412
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/app/AppBasic.h
+c00000000519797D00000000000002262
+t1368889296
+s8802
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/gl/gl.h
+c00000000519797D00000000000006469
+t1368889296
+s25705
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscBundle.cpp
+c0000000051BE1A9B00000000000007E1
+t1371413147
+s2017
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscListener.cpp
+c0000000051BE1A9B00000000000016B9
+t1371413147
+s5817
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscMessage.cpp
+c0000000051BE1A9B00000000000010AD
+t1371413147
+s4269
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscSender.cpp
+c0000000051BE1A9B00000000000010FE
+t1371413147
+s4350
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp
+c0000000051BE1A9B00000000000009FC
+t1371413147
+s2556
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp
+c0000000051BE1A9B00000000000007B8
+t1371413147
+s1976
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp
+c0000000051BE1A9B0000000000003DAD
+t1371413147
+s15789
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp
+c0000000051BE1A9B0000000000003BF2
+t1371413147
+s15346
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp
+c0000000051BE1A9B0000000000001C09
+t1371413147
+s7177
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp
+c0000000051BE1A9B0000000000004816
+t1371413147
+s18454
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp
+c0000000051BE1A9B0000000000000669
+t1371413147
+s1641
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../resources/CinderApp.icns
+c0000000051BE1A9B0000000000070375
+t1371413147
+s459637
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../src/mac_osc_001App.cpp
+c0000000051BE1B7400000000000007C6
+t1371413364
+s1990
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/Info.plist
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/MacOS/mac_osc_001
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/IpEndpointName.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/NetworkingUtils.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscBundle.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscListener.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscMessage.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscOutboundPacketStream.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscPrintReceivedElements.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscReceivedElements.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscSender.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscTypes.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/UdpSocket.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/mac_osc_001.LinkFileList
+c0000000051BE1B78000000000000068D
+t1371413368
+s1677
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/mac_osc_001App.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/mac_osc_001_Prefix.pch
+c0000000051BE1A9B000000000000012D
+t1371413147
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000051BE1A9B0000000000000462
+t1371413147
+s1122
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscBundle.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscListener.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscMessage.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscSender.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../src/mac_osc_001App.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies76335bf8526eb741^56816af8526eb741^---0#1#0#--18"Check dependencies36"4FDD8D02-97C0-4492-93A3-956360C54FCC-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/IpEndpointName.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106171.630746
+e393106172.863762
+r1
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/IpEndpointName.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp60aea1fb526eb741^d7f9e3fc526eb741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp0000000000000000^3109"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/IpEndpointName.o ../blocks/OSC/src/ip/IpEndpointName.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/IpEndpointName.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/IpEndpointName.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/IpEndpointName.o36"558C11E1-7A7A-4885-87E0-82CCD046EC88-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/NetworkingUtils.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106172.923866
+e393106174.104512
+r1
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/NetworkingUtils.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp8ba5ecfc526eb741^46d21efe526eb741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp0000000000000000^3127"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/NetworkingUtils.o ../blocks/OSC/src/ip/posix/NetworkingUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/NetworkingUtils.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/NetworkingUtils.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/NetworkingUtils.o36"E9A24EE6-7CEF-44CD-95D2-8FB4CB30D063-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscBundle.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106172.865072
+e393106174.104487
+r1
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscBundle.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscBundle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscBundle.cpp5b98ddfc526eb741^d5cc1efe526eb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscBundle.cpp0000000000000000^3073"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscBundle.o ../blocks/OSC/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscBundle.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscBundle.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscBundle.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscBundle.o36"6CFBEA24-25C1-433F-BA01-163A911E8A85-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscListener.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106171.630682
+e393106173.802280
+r1
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscListener.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscListener.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscListener.cpp36aca1fb526eb741^7427d4fd526eb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscListener.cpp0000000000000000^3085"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscListener.o ../blocks/OSC/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscListener.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscListener.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscListener.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscListener.o36"D2B9E790-1DA6-4CD8-B8B2-262AD3035766-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscMessage.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106171.630711
+e393106172.954107
+r1
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscMessage.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscMessage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscMessage.cpp4bafa1fb526eb741^ba4df4fc526eb741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscMessage.cpp0000000000000000^3079"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscMessage.o ../blocks/OSC/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscMessage.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscMessage.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscMessage.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscMessage.o36"4048C8E2-709F-4694-B8CF-74CDC70A710C-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscOutboundPacketStream.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106171.630815
+e393106172.915885
+r1
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscOutboundPacketStream.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp14b0a1fb526eb741^0e82eafc526eb741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp0000000000000000^3165"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscOutboundPacketStream.o ../blocks/OSC/src/osc/OscOutboundPacketStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscOutboundPacketStream.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscOutboundPacketStream.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscOutboundPacketStream.o36"45415FB5-9EC9-4C7A-AB14-C16C2148C620-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscPrintReceivedElements.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106171.630785
+e393106172.955467
+r1
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscPrintReceivedElements.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp25b0a1fb526eb741^b7b6f4fc526eb741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp0000000000000000^3171"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscPrintReceivedElements.o ../blocks/OSC/src/osc/OscPrintReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscPrintReceivedElements.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscPrintReceivedElements.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscPrintReceivedElements.o36"B4C25B3E-1C3D-45A9-B41D-D38F977C471D-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscReceivedElements.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106171.630843
+e393106172.922547
+r1
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscReceivedElements.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp10b1a1fb526eb741^473decfc526eb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp0000000000000000^3141"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscReceivedElements.o ../blocks/OSC/src/osc/OscReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscReceivedElements.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscReceivedElements.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscReceivedElements.o36"C797511E-D22C-4552-A6C3-722FBB3482D5-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscSender.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106171.630740
+e393106173.025918
+r1
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscSender.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscSender.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscSender.cpp3baba1fb526eb741^dffc06fd526eb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscSender.cpp0000000000000000^3073"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscSender.o ../blocks/OSC/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscSender.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscSender.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/OscSender.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscSender.o36"DDEF0A95-5721-4F9C-A689-C990BEC351C7-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscTypes.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106172.917255
+e393106174.104516
+r1
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscTypes.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp1af7eafc526eb741^07d11efe526eb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp0000000000000000^3075"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscTypes.o ../blocks/OSC/src/osc/OscTypes.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscTypes.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscTypes.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/OscTypes.o36"E906DCE9-2048-4390-97BC-26D919AC0180-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/UdpSocket.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106172.955477
+e393106174.306313
+r1
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/UdpSocket.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp2fc2f4fc526eb741^0e6b4efe526eb741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp0000000000000000^3091"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/UdpSocket.o ../blocks/OSC/src/ip/posix/UdpSocket.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/UdpSocket.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/UdpSocket.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/UdpSocket.o36"FB3ACFDA-47C5-41B0-87AB-B632D6662FAD-
+
+CCompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/mac_osc_001App.o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../src/mac_osc_001App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106171.630636
+e393106173.095721
+r0
+xCompileC
+x./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/mac_osc_001App.o
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../src/mac_osc_001App.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../src/mac_osc_001App.cpp:24:22: error: out-of-line definition of 'mouseDown' does not match any declaration in 'mac_osc_001App'
+ovoid mac_osc_001App::mouseDown( MouseEvent event )
+o                     ^~~~~~~~~
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../src/mac_osc_001App.cpp21ada1fb526eb741^3a7a18fd526eb741^-283"/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../src/mac_osc_001App.cpp:24:22: error: out-of-line definition of 'mouseDown' does not match any declaration in 'mac_osc_001App'void mac_osc_001App::mouseDown( MouseEvent event )                     ^~~~~~~~~1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@88"Out-of-line definition of 'mouseDown' does not match any declaration in 'mac_osc_001App'-393106173#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@85"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/src/mac_osc_001App.cpp0000000000000000^23#21#23#21#399#0#14"Semantic Issue1(3@85"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/src/mac_osc_001App.cpp0000000000000000^23#21#23#30#399#0#-0#0#0#-19%DVTDocumentLocation4@94"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../src/mac_osc_001App.cpp0000000000000000^3081"CompileC ./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/mac_osc_001App.o ../src/mac_osc_001App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/mac_osc_001App.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/mac_osc_001App.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../src/mac_osc_001App.cpp -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/Objects-normal/i386/mac_osc_001App.o36"6BA184E1-1FB2-4FE4-AF5D-D88C86FEE9A8-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/mac_osc_001.app/Contents/Resources/CinderApp.icns
+s393106168.444845
+e393106168.447261
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/mac_osc_001.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy ./build/Debug/mac_osc_001.app/Contents/Resources/CinderApp.icns52ef71f8526eb741^917f72f8526eb741^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/Resources/CinderApp.icns000000000080d041^458"CpResource ../resources/CinderApp.icns ./build/Debug/mac_osc_001.app/Contents/Resources/CinderApp.icns    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/../resources/CinderApp.icns /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/Resources36"5C674BF7-AD11-4771-8367-8DC58477767A-
+
+CLd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/MacOS/mac_osc_001 normal i386
+r0
+
+CProcessInfoPlistFile /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/Info.plist Info.plist
+s393106168.425489
+e393106168.437055
+r1
+xProcessInfoPlistFile
+x/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist390d6df8526eb741^0e6970f8526eb741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/Info.plist0000000000000000^438"ProcessInfoPlistFile ./build/Debug/mac_osc_001.app/Contents/Info.plist Info.plist    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app/Contents/Info.plist36"E89312B5-B3B4-4BC3-BA26-745820AC6CCB-
+
+CProcessPCH++ /Users/florianborn/Library/Developer/Xcode/DerivedData/mac_osc_001-cxreibxpuscgsqfmhiofckphulsj/Index/PrecompiledHeaders/mac_osc_001_Prefix-fgrchnfgzpayngalubqwkizwsllt_ast/mac_osc_001_Prefix.pch.pth mac_osc_001_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch.pth mac_osc_001_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s393106168.455340
+e393106171.623397
+r1
+xProcessPCH++
+x/var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch.pth
+xmac_osc_001_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile mac_osc_001_Prefix.pchf4a874f8526eb741^74989ffb526eb741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/mac_osc_001_Prefix.pch0000000000000000^3077"ProcessPCH++ /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch.pth mac_osc_001_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/mac_osc_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/mac_osc_001.build/Debug/mac_osc_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/build/Debug --serialize-diagnostics /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch.dia -c /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/mac_osc_001_Prefix.pch -o /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/mac_osc_001_Prefix-egyhufaiktxvqocyypqrrzaptooq/mac_osc_001_Prefix.pch.d36"5A1977D0-7D30-4A41-928E-EC1FBECD3E59-
+
+CTouch /Users/florianborn/dev/Cinder_Apps/mac_osc_001/xcode/./build/Debug/mac_osc_001.app
+r0
+

@@ -1,0 +1,515 @@
+TOSCreceive_001
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/Info.plist Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/OSCreceive_001.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch.pth OSCreceive_001_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OSCreceive_001App.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../src/OSCreceive_001App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscListener.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscPrintReceivedElements.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/UdpSocket.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscBundle.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscMessage.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscSender.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/IpEndpointName.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscOutboundPacketStream.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscReceivedElements.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscTypes.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/NetworkingUtils.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/MacOS/OSCreceive_001 normal i386
+cTouch /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000517EC81500000000000024F0
+t1367263253
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000517EC8160000000000024DD8
+t1367263254
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000517EC81600000000000060B4
+t1367263254
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000517EC81600000000000001E5
+t1367263254
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000517EC816000000000000E9A8
+t1367263254
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000517E9B520000000000006730
+t1367251794
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000517E9B560000000000081CB0
+t1367251798
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000517E9B60000000000002DAD0
+t1367251808
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c00000000517E9B6300000000004A2E10
+t1367251811
+s4861456
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/Cinder.h
+c00000000519797D00000000000000D79
+t1368889296
+s3449
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/CinderMath.h
+c00000000519797D00000000000001F9C
+t1368889296
+s8092
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/Matrix.h
+c00000000519797D00000000000000EDD
+t1368889296
+s3805
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/Quaternion.h
+c00000000519797D00000000000005499
+t1368889296
+s21657
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/Vector.h
+c00000000519797D0000000000000AD7C
+t1368889296
+s44412
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/app/AppBasic.h
+c00000000519797D00000000000002262
+t1368889296
+s8802
+
+N/Users/florianborn/dev/CINDER/cinder_master/include/cinder/gl/gl.h
+c00000000519797D00000000000006469
+t1368889296
+s25705
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscBundle.cpp
+c00000000519CC72400000000000007E1
+t1369229092
+s2017
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscListener.cpp
+c00000000519CC72400000000000016B9
+t1369229092
+s5817
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscMessage.cpp
+c00000000519CC72400000000000010AD
+t1369229092
+s4269
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscSender.cpp
+c00000000519CC72400000000000010FE
+t1369229092
+s4350
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp
+c00000000519CC72400000000000009FC
+t1369229092
+s2556
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp
+c00000000519CC72400000000000007B8
+t1369229092
+s1976
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp
+c00000000519CC7240000000000003DAD
+t1369229092
+s15789
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp
+c00000000519CC7240000000000003BF2
+t1369229092
+s15346
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp
+c00000000519CC7240000000000001C09
+t1369229092
+s7177
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp
+c00000000519CC7240000000000004816
+t1369229092
+s18454
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp
+c00000000519CC7240000000000000669
+t1369229092
+s1641
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../resources/CinderApp.icns
+c00000000519CC7240000000000070375
+t1369229092
+s459637
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../src/OSCreceive_001App.cpp
+c00000000519CC7500000000000000790
+t1369229136
+s1936
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/Info.plist
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/MacOS/OSCreceive_001
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/IpEndpointName.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/NetworkingUtils.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OSCreceive_001.LinkFileList
+c00000000519CC75E00000000000006FC
+t1369229150
+s1788
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OSCreceive_001App.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscBundle.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscListener.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscMessage.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscOutboundPacketStream.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscPrintReceivedElements.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscReceivedElements.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscSender.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscTypes.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/UdpSocket.o
+t2
+s0
+
+N/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/OSCreceive_001_Prefix.pch
+c00000000519CC724000000000000012D
+t1369229092
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c00000000519CC7240000000000000462
+t1369229092
+s1122
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscBundle.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscListener.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscMessage.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscSender.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp
+r0
+
+CBuild AST from /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../src/OSCreceive_001App.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3ecfcfdefe4cb741^85b1e5defe4cb741^---0#1#0#--18"Check dependencies36"3923D974-6211-4484-9EEE-02FDAF1FEC92-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/IpEndpointName.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921954.118160
+e390921955.400925
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/IpEndpointName.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp4c6c1ee2fe4cb741^4ab266e3fe4cb741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp0000000000000000^3226"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/IpEndpointName.o ../blocks/OSC/src/ip/IpEndpointName.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/IpEndpointName.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/IpEndpointName.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/IpEndpointName.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/IpEndpointName.o36"D9F57934-BAFA-4504-8FB1-52E7B64E4E90-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/NetworkingUtils.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921955.487450
+e390921956.434282
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/NetworkingUtils.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp28f27ce3fe4cb741^2c2d6fe4fe4cb741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp0000000000000000^3244"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/NetworkingUtils.o ../blocks/OSC/src/ip/posix/NetworkingUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/NetworkingUtils.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/NetworkingUtils.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/NetworkingUtils.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/NetworkingUtils.o36"D0EA9BAA-95D9-4564-8B89-0B277BACB8EC-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OSCreceive_001App.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../src/OSCreceive_001App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921954.117831
+e390921955.880412
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OSCreceive_001App.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../src/OSCreceive_001App.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../src/OSCreceive_001App.cppb56b1ee2fe4cb741^f661e1e3fe4cb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../src/OSCreceive_001App.cpp0000000000000000^3216"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OSCreceive_001App.o ../src/OSCreceive_001App.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OSCreceive_001App.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OSCreceive_001App.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../src/OSCreceive_001App.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OSCreceive_001App.o36"D94D0114-87BA-4022-9719-32FDCB28F3BD-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscBundle.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921954.117915
+e390921955.486188
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscBundle.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscBundle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscBundle.cppa96a1ee2fe4cb741^29767ce3fe4cb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscBundle.cpp0000000000000000^3190"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscBundle.o ../blocks/OSC/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscBundle.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscBundle.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscBundle.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscBundle.o36"3F302BF3-A7D1-4F81-A396-C421FD27A1CD-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscListener.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921954.117841
+e390921956.063692
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscListener.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscListener.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscListener.cpp0e6b1ee2fe4cb741^774d10e4fe4cb741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscListener.cpp0000000000000000^3202"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscListener.o ../blocks/OSC/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscListener.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscListener.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscListener.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscListener.o36"44D745DA-7969-4B07-9C96-FBC27E8B1DF0-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscMessage.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921954.117934
+e390921955.448623
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscMessage.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscMessage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscMessage.cppf86b1ee2fe4cb741^e4d872e3fe4cb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscMessage.cpp0000000000000000^3196"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscMessage.o ../blocks/OSC/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscMessage.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscMessage.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscMessage.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscMessage.o36"0F07114B-DE65-4385-B726-004BB2E6D2E2-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscOutboundPacketStream.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921955.402240
+e390921956.368524
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscOutboundPacketStream.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp6d1e67e3fe4cb741^cd565ee4fe4cb741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp0000000000000000^3282"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscOutboundPacketStream.o ../blocks/OSC/src/osc/OscOutboundPacketStream.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscOutboundPacketStream.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscOutboundPacketStream.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscOutboundPacketStream.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscOutboundPacketStream.o36"53EF7708-8208-4D91-815F-DC90E4DC67D4-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscPrintReceivedElements.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921954.117851
+e390921955.446416
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscPrintReceivedElements.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cppdb6a1ee2fe4cb741^564772e3fe4cb741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp0000000000000000^3288"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscPrintReceivedElements.o ../blocks/OSC/src/osc/OscPrintReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscPrintReceivedElements.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscPrintReceivedElements.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscPrintReceivedElements.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscPrintReceivedElements.o36"2D3BFBFC-CD2F-43FE-A7BE-5D1D49E4F0F9-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscReceivedElements.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921955.448610
+e390921956.399891
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscReceivedElements.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp40fa72e3fe4cb741^575e66e4fe4cb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp0000000000000000^3258"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscReceivedElements.o ../blocks/OSC/src/osc/OscReceivedElements.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscReceivedElements.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscReceivedElements.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscReceivedElements.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscReceivedElements.o36"B28C929D-AC34-4435-A6A4-B3C83C8F5482-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscSender.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921954.117942
+e390921955.486605
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscSender.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscSender.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscSender.cpp946b1ee2fe4cb741^e2917ce3fe4cb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscSender.cpp0000000000000000^3190"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscSender.o ../blocks/OSC/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscSender.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscSender.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/OscSender.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscSender.o36"2388C4D3-9E79-403E-B10E-8C010E3FD9E4-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscTypes.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921955.449889
+e390921956.405442
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscTypes.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp1a5073e3fe4cb741^afcc67e4fe4cb741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp0000000000000000^3192"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscTypes.o ../blocks/OSC/src/osc/OscTypes.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscTypes.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscTypes.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/osc/OscTypes.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OscTypes.o36"6A90A158-9862-4543-97C6-8A4CBC428CE6-
+
+CCompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/UdpSocket.o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921954.117890
+e390921955.681459
+r1
+xCompileC
+x./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/UdpSocket.o
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cppb56f1ee2fe4cb741^d882aee3fe4cb741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp0000000000000000^3208"CompileC ./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/UdpSocket.o ../blocks/OSC/src/ip/posix/UdpSocket.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -include /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch -MMD -MT dependencies -MF /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/UdpSocket.d --serialize-diagnostics /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/UdpSocket.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/UdpSocket.o36"B40D50F8-1163-4DD1-9B80-94B85679BA7D-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/OSCreceive_001.app/Contents/Resources/CinderApp.icns
+s390921950.917935
+e390921950.925338
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/OSCreceive_001.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy ./build/Debug/OSCreceive_001.app/Contents/Resources/CinderApp.icnsf915ebdefe4cb741^04e3ecdefe4cb741^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/Resources/CinderApp.icns000000000080d041^473"CpResource ../resources/CinderApp.icns ./build/Debug/OSCreceive_001.app/Contents/Resources/CinderApp.icns    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/../resources/CinderApp.icns /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/Resources36"D7E87C0A-5518-4199-826B-CF831D95F2F7-
+
+CLd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/MacOS/OSCreceive_001 normal i386
+s390921956.441189
+e390921957.304806
+r1
+xLd
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/MacOS/OSCreceive_001
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Link /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/MacOS/OSCreceive_0018d0971e4fe4cb741^d5074ee5fe4cb741^---0#0#0#--1095"Ld ./build/Debug/OSCreceive_001.app/Contents/MacOS/OSCreceive_001 normal i386    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug -filelist /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/Objects-normal/i386/OSCreceive_001.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../CINDER/Cinder_master/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/MacOS/OSCreceive_00136"570D5EB6-DC27-43A1-93E9-87E3EEEE898D-
+
+CProcessInfoPlistFile /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/Info.plist Info.plist
+s390921950.905531
+e390921950.908974
+r1
+xProcessInfoPlistFile
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistc0e7e7defe4cb741^3bc7e8defe4cb741^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/Info.plist0000000000000000^456"ProcessInfoPlistFile ./build/Debug/OSCreceive_001.app/Contents/Info.plist Info.plist    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app/Contents/Info.plist36"547829BE-59B9-4732-8343-3E8DC2006F6C-
+
+CProcessPCH++ /Users/florianborn/Library/Developer/Xcode/DerivedData/OSCreceive_001-gpjmthpaxxamtoedlsnjgkyvsuso/Index/PrecompiledHeaders/OSCreceive_001_Prefix-hepakhsdkvjwefbjxzsarsybgrch_ast/OSCreceive_001_Prefix.pch.pth OSCreceive_001_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch.pth OSCreceive_001_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s390921950.933722
+e390921954.110742
+r1
+xProcessPCH++
+x/var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch.pth
+xOSCreceive_001_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile OSCreceive_001_Prefix.pche431efdefe4cb741^6c5b1ce2fe4cb741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/OSCreceive_001_Prefix.pch0000000000000000^3185"ProcessPCH++ /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch.pth OSCreceive_001_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-generated-files.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-own-target-headers.hmap -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-all-target-headers.hmap -iquote /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/OSCreceive_001-project-headers.hmap -iquote../../../CINDER/Cinder_master/include -iquote../include -iquote../blocks/OSC/src -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug/include -I../../../CINDER/Cinder_master/boost -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources/i386 -I/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/OSCreceive_001.build/Debug/OSCreceive_001.build/DerivedSources -F/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/build/Debug --serialize-diagnostics /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch.dia -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/OSCreceive_001_Prefix.pch -o /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lg/cwtp1st94ls0_k9m1yc_tfqc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/OSCreceive_001_Prefix-bcncooweqfygqadcspbsdyojrour/OSCreceive_001_Prefix.pch.d36"3333841B-1038-4370-B171-8B9B7EFEC8F6-
+
+CTouch /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app
+s390921957.312974
+e390921957.318527
+r1
+xTouch
+x/Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Touch /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app402f50e5fe4cb741^618b51e5fe4cb741^---0#0#0#--213"Touch ./build/Debug/OSCreceive_001.app    cd /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode    /usr/bin/touch -c /Users/florianborn/dev/Cinder_Apps/OSCreceive_001/xcode/./build/Debug/OSCreceive_001.app36"396D9449-F6B6-4AE6-8108-09F8DADB190B-
+

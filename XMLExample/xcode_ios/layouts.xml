@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<layout id="0" button="5" slider="0" knobs="0">
+    
+    <field id="0">button</field>
+    <field id="1">button</field>
+    <field id="2">button</field>
+    <field id="3">button</field>
+    <field id="4">button</field>
+</layout>
+<layout id="1" button="0" slider="5" knobs="0">
+    <field id="0">slider</field>
+    <field id="1">slider</field>
+    <field id="2">slider</field>
+    <field id="3">slider</field>
+    <field id="4">slider</field>
+</layout>
