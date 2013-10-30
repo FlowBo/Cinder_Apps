@@ -67,7 +67,7 @@ void coding_01App::draw()
     {
         float xValue = x * getWindowWidth()/(division-1);
         float yValue = 100;
-        gl::color(0.6, 0.0, 0.0);
+        gl::color(0.6, 0.3, 0.0);
         if(x%2 == 0){yValue+=50;};
         gl::drawLine(Vec2f(xValue,0), Vec2f(xValue,yValue));
         text.setText(to_string(x));
