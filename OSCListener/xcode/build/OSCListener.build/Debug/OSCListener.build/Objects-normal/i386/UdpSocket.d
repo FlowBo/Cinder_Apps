@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/florianborn/dev/Cinder_Apps/OSCListener/xcode/../blocks/OSC/src/ip/posix/UdpSocket.cpp \
+  /Users/florianborn/dev/Cinder_Apps/OSCListener/blocks/OSC/src/ip/posix/UdpSocket.cpp \
   ../blocks/OSC/src/ip/UdpSocket.h \
   ../blocks/OSC/src/ip/NetworkingUtils.h \
   ../blocks/OSC/src/ip/IpEndpointName.h \

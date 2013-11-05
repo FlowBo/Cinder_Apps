@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/florianborn/dev/Cinder_Apps/OSCListener/xcode/../blocks/OSC/src/OscListener.cpp \
+  /Users/florianborn/dev/Cinder_Apps/OSCListener/blocks/OSC/src/OscListener.cpp \
   ../../../CINDER/Cinder_master/include/cinder/Utilities.h \
   ../../../CINDER/Cinder_master/boost/boost/lexical_cast.hpp \
   ../../../CINDER/Cinder_master/boost/boost/detail/lcast_precision.hpp \
